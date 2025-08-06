@@ -23,7 +23,7 @@ APP_ID = int(os.environ.get("APP_ID", "26910777")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "8601f2f24993f6fdbcbac3bb27ceec38") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002170811388")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002605527708")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "AJ_TVSERIAL_BOT") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "5232142502")) # Owner id
 #--------------------------------------------
@@ -36,7 +36,7 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/aj_tvserial_bot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180dw3312d6a.jpg")
+START_PIC = os.environ.get("START_PIC", "https://ibb.co/8LBsbD7j")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 #--------------------------------------------
 
